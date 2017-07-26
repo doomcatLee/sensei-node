@@ -1,0 +1,1310 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6713535, 45.522522
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Skidmore Fountain",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6774931, 45.5157248
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Elk",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.717092, 45.5099259
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Coming of the White Man",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7169825, 45.509785
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Sacajawea and Jean-Baptiste",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6773819, 45.5160628
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Spanish American War Soldier's Monument",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6773819, 45.5160628
+        ]
+      },
+        "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Second Oregon Company Volunteers",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6832751, 45.5157384
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Theodore Roosevelt, Rough Rider",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6229104, 45.5264439
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Joan of Arc",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6825495, 45.5170777
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Rebecca at the Well",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6056635, 45.5426607
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "George Washington",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6829323, 45.5164198
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Abraham Lincoln",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.601407, 45.5140726
+
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Harvey W. Scott",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.708538, 45.499509
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Joy (Pioneer Woman)",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.663138, 45.528379
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Mural of Portland",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.682857, 45.4833519
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Totem Pole",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Sculpture No. 1",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Monument #1",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Man's Past and the Garden of Possibilities",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.681635, 45.528902
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Contact II",
+        "point_size": 2
+      }
+    },
+      {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6788961, 45.5061536
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Leland #1",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.678622, 45.5191021
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Kvinneakt",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.7169825, 45.509785
+      ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Frank Beach Memorial Fountain",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6788148, 45.5122722
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Awning",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6720321, 45.5175316
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Sculpture Stage",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3963777, 45.5166453
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "TRIMET",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.679117, 45.512731
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "S77 VII",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6767851, 45.5201174
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Interlocking Forms",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6775765, 45.5188054
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Cat in Repose",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6793257, 45.5177511
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Thor",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6768146, 45.5224105
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Fountain",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6813302, 45.5015642
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "BW1",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6604404, 45.5124035
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Grey",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6798145, 45.5103394
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "The Dreamer",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6423886, 45.4704529
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Uroboros",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6823349, 45.5195714
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "118 Modules",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.674872, 45.5682219
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Disk 4",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784582, 45.5126137
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Dark Wave",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.751052, 45.589982
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "St. John's Triptych",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.703802, 45.5339627
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Silver Dawn",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7068156, 45.5357281
+      ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Mirir",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Quiet Sea and Rocks",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Portland Rose",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Gas Lamps",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Arcade Ceiling",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6766945, 45.5151898
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Portland Columns",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6770884, 45.5153084
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Glass Window",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784582, 45.5126137
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Young Girl",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784582, 45.5126137
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Scherzo in B Sharp Major ",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Mistral No. 3",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Celestial Star",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Canoe Paddle",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.683125, 45.514946
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Peace Chant",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.684352, 45.5137514
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "In the Shadow of the Elm",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6784647, 45.5126101
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Snail Pattern",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6799857, 45.5186685
+
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Allow Me",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.59439, 45.5316951
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Martin Luther",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "A Portrait",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Two Policemen",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Old Handcuffs",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.677138, 45.515249
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Polygraph",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.682784, 45.463439
+      ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Fire Eater",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.678954, 45.5184009
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Animals in Pools",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.680413, 45.5157287
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Running Horses",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6766945, 45.5151898
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Justice Center",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.679128, 45.515651
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Rain and the River",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6813252, 45.516623
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Spectral Light Dome",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.7177981, 45.5146037
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "House of Summer",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6612261, 45.5522336
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Now is the time",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6769612, 45.5174546
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Human Comedy",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6720321, 45.5175316
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Friendship Circle",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6769612, 45.5174546
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Streetwise",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6720321, 45.5175316
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.681327, 45.516623
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Muse, Maze, Mirror, Gaze",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.681327, 45.516623
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Portland Town",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6769152, 45.520448
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "She fell back to earth",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6769152, 45.520448
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "She knew that there was danger",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6769152, 45.520448
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "You gave me life so I may give-away to people",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6769152, 45.520448
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "I am the guide to the sacred mountains",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6768938, 45.5204179
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Hang on to the wind and trust",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6760361, 45.5206694
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": " Jumping Mouse Myth",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.578031, 45.52782
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Inner Game",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.59439, 45.5316951
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Besides Ourselves",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6004267, 45.4703942
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "A Moment at the River",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6650044, 45.5419478
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Angel in Repose",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6140916, 45.5231237
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Artists Bench",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.5384885, 45.5166834
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Talking leaves",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.538561, 45.5166929
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Wall Story",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.5610523, 45.4954209
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Water Story",
+        "point_size": 2
+      }
+        },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.5559823, 45.4954728
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Contemplative Place",
+        "point_size": 2
+      }
+      },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.7599894, 45.5854766
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Fare Well",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.756345, 45.58874
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "The Conduct of an Instant…",
+        "point_size": 2
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.7599894, 45.5854766
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "font_file": "fonts/helvetica.ttf",
+        "font_size": 10,
+        "name": "Water, Please",
+        "point_size": 2
+      }
+    }
+  ]
+}

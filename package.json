@@ -1,0 +1,28 @@
+{
+  "name": "sensei-node",
+  "version": "1.0.0",
+  "description": "Sensei node is an express.js application that holds routes for three projects to be hosted on AWS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "asyncawait": "^1.0.6",
+    "body-parser": "^1.17.1",
+    "express": "latest",
+    "google-cloud": "^0.56.0",
+    "node-google-translate-skidz": "^1.1.1",
+    "promise": "^8.0.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "twilio": "^3.5.0"
+  },
+  "author": "Alex Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doomcatlee/sensei-node/issues"
+  },
+  "homepage": "https://github.com/doomcatlee/sensei-node#readme",
+  "devDependencies": {}
+}

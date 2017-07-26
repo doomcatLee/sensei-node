@@ -1,0 +1,206 @@
+
+circle,
+path {
+  cursor: pointer;
+}
+
+circle {
+  fill: none;
+  pointer-events: all;
+}
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
+.beer {
+  padding: 80px;}
+#colorStripe{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ffd456;
+}
+#pageHeader {
+  min-height: 600px;
+  background-image: url(../assets/img/hero.png);
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+#headerText{
+  font-family: 'Russo One', sans-serif;
+  margin: 0px;
+  font-size: 100px;
+  text-align: left;
+  width: 600px;
+  margin-left: 10%;
+}
+.head1{
+  font-size: 116px;
+}
+.head3{
+  font-size: 210px;
+}
+/*flipping images*/
+.backOfCard {
+  text-align: center;
+  padding: 30px;
+}
+.flip3D {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+}
+
+.background {
+  fill: #fff;
+}
+
+.neighborhoods {
+  fill: #bbb;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.flip3D > .front {
+  position: center;
+  -webkit-transform: perspective( 600px) rotateY( 0deg);
+  transform: perspective( 600px) rotateY( 0deg);
+  background: #f2c41f;
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform .5s linear 0s;
+  transition: transform .5s linear 0s;
+}
+
+.flip3D > .back {
+  position: absolute;
+  -webkit-transform: perspective( 600px) rotateY( 180deg);
+  transform: perspective( 600px) rotateY( 180deg);
+  background: #f2c41f;
+  width: 200px;
+  height: 200px;
+  border-radius: 7px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: -webkit-transform .5s linear 0s;
+  transition: transform .5s linear 0s;
+}
+
+.flip3D:hover > .front {
+  -webkit-transform: perspective( 600px) rotateY( -180deg);
+  transform: perspective( 600px) rotateY( -180deg);
+}
+
+.flip3D:hover > .back {
+  -webkit-transform: perspective( 600px) rotateY( 0deg);
+  transform: perspective( 600px) rotateY( 0deg);
+}
+#teamDiv{
+  position: absolute;
+  width: 800px;
+  padding: 60px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+/*.foodCarts{
+  margin-top: 700px;
+}*/
+#secondLineImage{
+  margin-left: 110px;
+}
+#teamRow {
+  height: 620px;
+  /*background-color: #f2c41f;*/
+
+}
+
+
+#niggaLee svg
+{
+}
+
+
+.my-legend .legend-title {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 90%;
+
+}
+.my-legend .legend-scale ul {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  float: left;
+  list-style: none;
+}
+.my-legend .legend-scale ul li {
+  font-size: 80%;
+  list-style: none;
+  margin-left: 0;
+  line-height: 18px;
+  margin-bottom: 2px;
+}
+.my-legend ul.legend-labels li span {
+  display: block;
+  float: left;
+  height: 16px;
+  width: 30px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 1px solid #999;
+}
+.my-legend .legend-source {
+  font-size: 70%;
+  color: #999;
+  clear: both;
+}
+.my-legend a {
+  color: #777;
+}
+.my-legend {
+  margin-top: 240px;
+  float: right;
+  margin-right: -50px;
+  text-align: left;
+}
+#pieText{
+  text-align: center;
+}
+.bubble{
+  padding-top: 20px;
+  background-color: #9e9c9c;
+  padding-bottom: 150px;
+}
+.bubbleChart h1, .bubbleChart h4 {
+  color: white;
+}
+.chart-example {
+  background-color: white;
+  padding-top: 80px;
+  padding-right: 20px;
+  width: 700px;
+  height: 700px;
+  display: block;
+  margin: auto;
+  border-radius: 100%;
+}
+.pie, .bubble, #niggaLee, .foodCarts {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portland D3 Charts</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <link rel="icon" href="assets/img/d3.png">
+  <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8">
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.6.0/d3.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+
+  <script src="d3pie.min.js"></script>
+  <script src="js/beer.js"></script>
+  <script src="js/sunburst.js"></script>
+  <script src="js/bubble_chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="row center-align" id="pageHeader">
+      <br>
+      <img src="assets/img/logo.png" alt="Run The Numbers PDX" width="600px">
+      <br>
+      <br>
+      <a href="https://github.com/winnk/D4" class="center-align waves-effect waves-light btn-large  amber lighten-1">Documentation</a>
+      <br>
+      <br>
+
+    </div>
+    <div class="row" id="teamRow">
+
+      <div id="teamDiv">
+        <h3 class="center-align">Team D3</h3>
+        <div class="flip3D">
+          <div class="back" id="card2back">
+            <div class="backOfCard">
+              <h6><strong>Blake Womack</strong></h6>
+              <h6>Wine Bubbles</h6>
+            </div>
+          </div>
+
+          <div class="front">
+            <div class="back" id="card2back">
+              <a href="https://www.linkedin.com/in/blake-womack-59b02336/"><img src="assets/img/Blake.jpg" alt="Profession Photo of Blake Womack"></a>
+            </div>
+          </div>
+        </div>
+        <div class="flip3D">
+          <div class="back" id="card2back">
+            <div class="backOfCard">
+              <h6><strong>Chris Wainner</strong></h6>
+              <h6>Food Cart Starburst</h6>
+            </div>
+          </div>
+
+          <div class="front">
+            <div class="back" id="card2back">
+              <a href=""><img src="assets/img/Chris.jpg" alt="Profession Photo of Chris Wainner" width="200"></a>
+            </div>
+          </div>
+        </div>
+        <div class="flip3D">
+          <div class="back card2back">
+            <div class="backOfCard">
+              <h6><strong>Kaya Winn</strong></h6>
+              <h6>Art Pie & Map</h6>
+            </div>
+          </div>
+
+          <div class="front">
+            <div class="back card2back">
+              <a href=""><img src="assets/img/Kaya.png" alt="Profession Photo of Kaya Winn" width="200"></a>
+            </div>
+          </div>
+        </div>
+        <div class="flip3D" id="secondLineImage">
+          <div class="back card2back">
+            <div class="backOfCard">
+              <h6><strong>Stormi Hoebelheinrich</strong></h6>
+              <h6>Beer Graph</h6>
+            </div>
+          </div>
+
+          <div class="front">
+            <div class="back card2back">
+              <a href=""><img src="assets/img/Stormi.jpg" alt="Profession Photo of Stormi Hoebelheinrich" width="200"></a>
+            </div>
+          </div>
+        </div>
+        <div class="flip3D">
+          <div class="back card2back">
+            <div class="backOfCard">
+              <h6><strong>Alex Lee</strong></h6>
+              <h6>Radar Charts</h6>
+            </div>
+          </div>
+
+          <div class="front">
+            <div class="back card2back">
+              <a href="http://imgur.com/uScQ0FI"><img src="assets/img/Alex.jpg" alt="Profession Photo of Alex Lee" width="200"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <!-- end row -->
+  </header>
+  <main class="center-align">
+    <div class="foodCarts container">
+      <br>
+      <h4>Current Location</h4>
+      <h2 id="foodCartTitle"></h2>
+      <svg id="foodCartGraph"></svg>
+      <h4>Click one of the pods above</h4>
+    </div>
+    <!--end food carts -->
+
+
+    <div id="colorStripe">
+      <div class="beer container">
+        <h1>
+            Beer in Portland
+          </h1>
+        <h4>What do you think is Portland's most prominent style of beer?</h4>
+        <div class="beerGraph">
+          <svg id="beerSvg" width="960" height="550"></svg>
+          <h5><span class="beerResults">Select a style to see the results.</span></h5>
+        </div>
+      </div>
+    </div>
+    <!--End Beer-->
+
+    <!-- Start Pie -->
+    <div class="pie row container">
+      <div id="pie" class="col l6 right-align">
+        <p id="pieText">The Portland Public Art Committee commissions art that engages with the surrounding environment to create, enrich, or reveal a sense of place, and to express the spirit, values, visions and poetry of place that collectively define Portland. The
+          media types of Portland public art is illustrated here.</p>
+      </div>
+
+      <div id="artMap" class="col l6">
+        <p id="pieText">As mediators between an inner mental world and an outer physical world, maps are fundamental tools helping the human mind make sense of its universe at various scales. More-over, they are undoubtedly one of the oldest forms of human communication.
+          This map of Multnomah County, comprised of smaller neighborhoods outlines, shows the locations of commission funded art installations. </p>
+      </div>
+
+
+      <script type="text/javascript" src="js/pie.js"></script>
+    </div>
+    <div class="bubble">
+
+      <!-- end pie -->
+      <div class="bubbleChart container">
+        <h1>Oregon Wine Grapes</h1>
+        <h4>Annual Tons Harvested of each Variety</h4>
+        <br>
+        <div class="chart-example" id="chart"><svg></svg>
+        </div>
+        <script>
+          d3.csv(src = "bubble_chart.csv", function(error, data) {
+            if (error) {
+              console.error('Error getting or parsing the data.');
+              throw error;
+            }
+            var chart = bubbleChart().width(768).height(550);
+            d3.select('#chart').data(data).call(chart);
+          });
+        </script>
+      </div>
+      <!-- end bubble chart -->
+    </div>
+
+    <!-- Map -->
+    <script>
+      var width = 740,
+        height = 700;
+
+      var projection = d3.geoConicConformal()
+        .rotate([120.67, -45.52])
+        .parallels([44, 46])
+        .scale(125000)
+        .center([-1.388, 0.04])
+        .translate([width / 2, height / 2]);
+
+      var path = d3.geoPath()
+        .projection(projection);
+
+      var svg = d3.select("#artMap").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      svg.append("rect")
+        .attr("class", "background")
+        .attr("width", width)
+        .attr("height", height);
+
+      queue()
+        .defer(d3.json, "neighborhoods.topo.json")
+        .defer(d3.json, "points.json")
+        .defer(d3.json, "labels_overlap.topo.json")
+        .defer(d3.json, "labels.topo.json")
+        .await(makeMap);
+
+      function makeMap(error, hoods, points, overlap, labels) {
+
+        neighborhoods = topojson.feature(hoods, hoods.objects.neighborhoods)
+        dymo_overlapping_labels = topojson.feature(overlap, overlap.objects.labels_overlap)
+        dymo_labels = topojson.feature(labels, labels.objects.labels)
+
+        //Neighborhood outlines
+        svg.append("g")
+          .attr("class", "neighborhoods")
+          .selectAll("path")
+          .data(neighborhoods.features)
+          .enter().append("path")
+          .attr("d", path)
+
+        //Append Dymo points
+        svg.selectAll(".symbol")
+          .data(points.features)
+          .enter().append("path")
+          .attr("class", "symbol")
+          .attr("d", path.pointRadius(2));
+
+      }
+    </script>
+    <!--  End Map -->
+
+    <div id="niggaLee" class="container">
+      <div class="raceTitle">
+        <h2>Oregon Unemployment Rate</h2>
+        <h4>Compared with CA, CO, and NY </h4>
+      </div>
+      <div class="row">
+        <div class="col s3">
+          <div class='my-legend'>
+            <div class='legend-scale'>
+              <ul class='legend-labels'>
+                <li><span style='background:#ffd644;'></span>Oregon</li>
+                <li><span style='background:#CC3442;'></span>California</li>
+                <li><span style='background:#00A0B0;'></span>Colorado</li>
+                <li><span style='background:#13ad0c;'></span>New York</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s9">
+          <div class="radarChart1"></div>
+        </div>
+      </div>
+
+      <script src="js/radarChart.js"></script>
+      <script>
+        var margin = {
+            top: 100,
+            right: 100,
+            bottom: 100,
+            left: 100
+          },
+          width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+          height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+
+        //////////////////////////////////////////////////////////////
+        ////////////////////////// Data //////////////////////////////
+        //////////////////////////////////////////////////////////////
+
+        var data = [
+          [ //Portland
+            {
+              axis: "2007",
+              value: 0.051,
+              group: "Oregon"
+            },
+            {
+              axis: "2008",
+              value: 0.053,
+              group: "Oregon"
+            },
+
+            {
+              axis: "2009",
+              value: 0.103,
+              group: "Oregon"
+            },
+
+            {
+              axis: "2010",
+              value: 0.109,
+              group: "Oregon"
+            },
+            {
+              axis: "2011",
+              value: 0.09,
+              group: "Oregon"
+
+            },
+            {
+              axis: "2012",
+              value: 0.091,
+              group: "Oregon"
+            },
+            {
+              axis: "2013",
+              value: 0.085,
+              group: "Oregon"
+            },
+            {
+              axis: "2014",
+              value: 0.073,
+              group: "Oregon"
+            },
+            {
+              axis: "2015 ",
+              value: 0.059,
+              group: "Oregon"
+            }
+
+          ],
+          [ //"African American Resident"
+            {
+              axis: "2007",
+              value: 0.05,
+              group: "California"
+            },
+            {
+              axis: "2008",
+              value: 0.061,
+              group: "California"
+            },
+            {
+              axis: "2009",
+              value: 0.098,
+              group: "California"
+            },
+            {
+              axis: "2010",
+              value: 0.121,
+              group: "California"
+            },
+            {
+              axis: "2011",
+              value: 0.12,
+              group: "California"
+            },
+            {
+              axis: "2012",
+              value: 0.109,
+              group: "California"
+            },
+            {
+              axis: "2013",
+              value: 0.095,
+              group: "California"
+            },
+            {
+              axis: "2014",
+              value: 0.081,
+              group: "California"
+            },
+            {
+              axis: "2015",
+              value: 0.068,
+              group: "California"
+            }
+
+          ],
+          [ //Asian American Resident
+            {
+              axis: "2007",
+              value: 0.037,
+              group: "Colorado"
+            },
+            {
+              axis: "2008",
+              value: 0.042,
+              group: "Colorado"
+            },
+            {
+              axis: "2009",
+              value: 0.063,
+              group: "Colorado"
+            },
+            {
+              axis: "2010",
+              value: 0.085,
+              group: "Colorado"
+            },
+            {
+              axis: "2011",
+              value: 0.088,
+              group: "Colorado"
+            },
+            {
+              axis: "2012",
+              value: 0.081,
+              group: "Colorado"
+            },
+            {
+              axis: "2013",
+              value: 0.073,
+              group: "Colorado"
+            },
+            {
+              axis: "2014",
+              value: 0.059,
+              group: "Colorado"
+            },
+            {
+              axis: "2015",
+              value: 0.041,
+              group: "Colorado"
+            }
+
+          ],
+          [ //Hispanic Resident
+            {
+              axis: "2007",
+              value: 0.043,
+              group: "New York"
+            },
+
+            {
+              axis: "2008",
+              value: 0.049,
+              group: "New York"
+            },
+            {
+              axis: "2009",
+              value: 0.072,
+              group: "New York"
+            },
+            {
+              axis: "2010",
+              value: 0.088,
+              group: "New York"
+            },
+            {
+              axis: "2011",
+              value: 0.083,
+              group: "New York"
+            },
+            {
+              axis: "2012",
+              value: 0.086,
+              group: "New York"
+            },
+            {
+              axis: "2013",
+              value: 0.08,
+              group: "New York"
+            },
+            {
+              axis: "2014",
+              value: 0.069,
+              group: "New York"
+            },
+            {
+              axis: "2015",
+              value: 0.057,
+              group: "New York"
+            }
+          ]
+        ];
+        //////////////////////////////////////////////////////////////
+        //////////////////// Draw the Chart //////////////////////////
+        //////////////////////////////////////////////////////////////
+
+        var color = d3.scale.ordinal()
+          .range(["#EDC951", "#CC333F", "#00A0B0", "#7cc136"]);
+
+        var radarChartOptions = {
+          w: width,
+          h: height,
+          margin: margin,
+          maxValue: 0.06,
+          levels: 3,
+          roundStrokes: true,
+          color: color
+        };
+        //Call function to draw the Radar chart
+        RadarChart(".radarChart1", data, radarChartOptions);
+      </script>
+    </div>
+
+
+
+
+    <div id="niggaLee" class="container">
+      <div class="raceTitle">
+        <h2>Oregon Income & Race</h2>
+        <h4>Annual Household Income by Race</h4>
+      </div>
+      <div class="row">
+        <div class="col s3">
+          <div class='my-legend'>
+            <div class='legend-scale'>
+              <ul class='legend-labels'>
+                <li><span style='background:#ffd644;'></span>White Resident</li>
+                <li><span style='background:#CC3442;'></span>African American Resident</li>
+                <li><span style='background:#00A0B0;'></span>Asian American Resident</li>
+                <li><span style='background:#13ad0c;'></span>Hispanic Resident</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col s9">
+          <div class="radarChart"></div>
+        </div>
+      </div>
+
+      <script src="js/radarChart.js"></script>
+      <script>
+        var margin = {
+            top: 100,
+            right: 100,
+            bottom: 100,
+            left: 100
+          },
+          width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+          height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+
+        //////////////////////////////////////////////////////////////
+        ////////////////////////// Data //////////////////////////////
+        //////////////////////////////////////////////////////////////
+
+        var data = [
+          [ //Portland
+            {
+              axis: "Less than 10k",
+              value: 0.064,
+              group: "White Resident"
+            },
+            {
+              axis: "10k to 30k",
+              value: 0.205,
+              group: "White Resident"
+            },
+
+            {
+              axis: "30k to 50k",
+              value: 0.191,
+              group: "White Resident"
+            },
+
+            {
+              axis: "50k to 75k",
+              value: 0.185,
+              group: "White Resident"
+            },
+            {
+              axis: "75k to 100k",
+              value: 0.128,
+              group: "White Resident"
+
+            },
+            {
+              axis: "100k to 125k",
+              value: 0.081,
+              group: "White Resident"
+            },
+            {
+              axis: "125k to 150k",
+              value: 0.053,
+              group: "White Resident"
+            },
+            {
+              axis: "150k to 200k",
+              value: 0.046,
+              group: "White Resident"
+            },
+            {
+              axis: "More than 200k ",
+              value: 0.046,
+              group: "White Resident"
+            }
+
+          ],
+          [ //"African American Resident"
+            {
+              axis: "Less than 10k",
+              value: 0.17,
+              group: "African American Resident"
+            },
+            {
+              axis: "10k to 30k",
+              value: 0.30,
+              group: "African American Resident"
+            },
+            {
+              axis: "30k to 50k",
+              value: 0.16,
+              group: "African American Resident"
+            },
+            {
+              axis: "50k to 75k",
+              value: 0.14,
+              group: "African American Resident"
+            },
+            {
+              axis: "75k to 100k",
+              value: 0.07,
+              group: "African American Resident"
+            },
+            {
+              axis: "100k to 125k",
+              value: 0.05,
+              group: "African American Resident"
+            },
+            {
+              axis: "125k to 150k",
+              value: 0.02,
+              group: "African American Resident"
+            },
+            {
+              axis: "150k to 200k",
+              value: 0.02,
+              group: "African American Resident"
+            },
+            {
+              axis: "More than 200k",
+              value: 0.029,
+              group: "African American Resident"
+            }
+
+          ],
+          [ //Asian American Resident
+            {
+              axis: "Less than 10k",
+              value: 0.09,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "10k to 30k",
+              value: 0.135,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "30k to 50k",
+              value: 0.137,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "50k to 75k",
+              value: 0.152,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "75k to 100k",
+              value: 0.142,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "100k to 125k",
+              value: 0.108,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "125k to 150k",
+              value: 0.059,
+              group: "Asian American Resident"
+            },
+            {
+              axis: "150k to 200k",
+              value: 0.07
+            },
+            {
+              axis: "More than 200k",
+              value: 0.104,
+              group: "Asian American Resident"
+            }
+
+          ],
+          [ //Hispanic Resident
+            {
+              axis: "Less than 10k",
+              value: 0.06,
+              group: "Hispanic Resident"
+            },
+
+            {
+              axis: "10k to 30k",
+              value: 0.168,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "30k to 50k",
+              value: 0.226,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "50k to 75k",
+              value: 0.217,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "75k to 100k",
+              value: 0.11,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "100k to 125k",
+              value: 0.06,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "125k to 150k",
+              value: 0.025,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "150k to 200k",
+              value: 0.02,
+              group: "Hispanic Resident"
+            },
+            {
+              axis: "More than 200k",
+              value: 0.013,
+              group: "Hispanic Resident"
+            }
+          ]
+        ];
+        //////////////////////////////////////////////////////////////
+        //////////////////// Draw the Chart //////////////////////////
+        //////////////////////////////////////////////////////////////
+
+        var color = d3.scale.ordinal()
+          .range(["#EDC951", "#CC333F", "#00A0B0", "#7cc136"]);
+
+        var radarChartOptions = {
+          w: width,
+          h: height,
+          margin: margin,
+          maxValue: 0.3,
+          levels: 5,
+          roundStrokes: true,
+          color: color
+        };
+        //Call function to draw the Radar chart
+        RadarChart(".radarChart", data, radarChartOptions);
+      </script>
+    </div>
+
+
+
+  </main>
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Technologies Used</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://d3js.org/">D3</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://jquery.com/">JQuery</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://www.javascript.com/">JavaScript</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://materializecss.com/">Materialize CSS</a></li>
+          </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Data Sources</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="http://www.foodcartsportland.com/">Food Carts Portland</a></li>
+            <li><a class="grey-text text-lighten-3" href="http://www.portlandbeer.org/beer/styles">PortlandBeer.org</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Portland Art</a></li>
+
+            <li><a class="grey-text text-lighten-3" href="http://oregon-wine.com/wp-content/uploads/2015/02/full-glass-wine-economic-impact-oregon-1-2015.pdf">Economic Impact of Oregon State Wine</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Race & Income</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
